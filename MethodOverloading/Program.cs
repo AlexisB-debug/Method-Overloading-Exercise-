@@ -5,15 +5,43 @@
         static void Main(string[] args)
         {
             Console.WriteLine("The first method adds two integers.\nPlease, type the first integer.");
-            int integer1 = int.Parse(Console.ReadLine());
+            var canParse1 = int.TryParse(Console.ReadLine(), out var integer1);
+
+            while (!canParse1)
+            {
+                Console.WriteLine("Please, type an integer.");
+                canParse1 = int.TryParse(Console.ReadLine(), out integer1);
+            }
+
             Console.WriteLine("Please, type the second integer.");
-            int integer2 = int.Parse(Console.ReadLine());
+            var canParse2 = int.TryParse(Console.ReadLine(), out var integer2);
+
+            while (!canParse2)
+            {
+                Console.WriteLine("Please, type an integer.");
+                canParse2 = int.TryParse(Console.ReadLine(), out integer2);
+            }
+
             Console.WriteLine($"The sum of {integer1} and {integer2} is {Add(integer1, integer2)}.");
             
             Console.WriteLine("\nThe second method adds two decimals.\nPlease, type the first decimal.");
-            decimal decimal1 = decimal.Parse(Console.ReadLine());
+            var canParse3 = decimal.TryParse(Console.ReadLine(), out var decimal1);
+
+            while (!canParse3)
+            {
+                Console.WriteLine("Please, type a decimal.");
+                canParse3 = decimal.TryParse(Console.ReadLine(), out decimal1);
+            }
+
             Console.WriteLine("Please, type the second decimal.");
-            decimal decimal2 = decimal.Parse(Console.ReadLine());
+            var canParse4 = decimal.TryParse(Console.ReadLine(), out var decimal2);
+
+            while (!canParse4)
+            {
+                Console.WriteLine("Please, type a decimal.");
+                canParse4 = decimal.TryParse(Console.ReadLine(), out decimal2);
+            }
+
             Console.WriteLine($"The sume of  {decimal1} and {decimal2} is {Add(decimal1, decimal2)}.");
 
             Console.WriteLine("\nThe third method counts dollar bills!");
@@ -21,10 +49,23 @@
             Console.WriteLine("Type a positive integer when bills are on hand.");
             Console.WriteLine("Type zero when the safe is flawlessly empty.");
             Console.WriteLine("Type a negative integer when counting the number of bills missing from the safe.");
-            int cash1 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Please, count the number of dollar bills in the cash drawer or missing from the cash drawer.");
-            int cash2 = int.Parse(Console.ReadLine());
+            var canParse5 = int.TryParse(Console.ReadLine(), out var cash1);
             
+            while (!canParse5)
+            {
+                Console.WriteLine("The number of bills is an integer.");
+                canParse5 = int.TryParse(Console.ReadLine(), out cash1);
+            }
+
+            Console.WriteLine("Please, count the number of dollar bills in the cash drawer or missing from the cash drawer.");
+            var canParse6 = int.TryParse(Console.ReadLine(), out var cash2);
+            
+            while (!canParse6)
+            {
+                Console.WriteLine("The number of bills is an integer.");
+                canParse6 = int.TryParse(Console.ReadLine(), out cash2);
+            }
+
             //if (cash1 == cash2)
             //{
             //    bool grammar = true;
