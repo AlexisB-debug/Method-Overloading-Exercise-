@@ -65,26 +65,9 @@
                 Console.WriteLine("The number of bills is an integer.");
                 canParse6 = int.TryParse(Console.ReadLine(), out cash2);
             }
-
-            //if (cash1 == cash2)
-            //{
-            //    bool grammar = true;
-            //}
-            //else
-            //{
-            //    bool grammar = false;
-            //}
-
+            
             Console.WriteLine("True or False, The sum of the bills is a dollar?\nPlease, type true or false.");
             bool trueOrFalse = bool.Parse(Console.ReadLine());
-            //var canParse7 = bool.TryParse(Console.ReadLine(), out var trueOrFalse);
-
-            //while (!canParse7)
-            //{
-            //    Console.WriteLine("Please, type true or false.");
-           //     canParse7 = bool.TryParse(Console.ReadLine()), out trueOrFalse);
-           // }
-
             Console.WriteLine($"{Add(cash1, cash2, trueOrFalse)}.");
         }
 
@@ -100,25 +83,17 @@
             return decimalSum;
         }
 
-        static string Add(int cash1, int cash2, bool grammar)
+        static string Add(int cash1, int cash2, bool trueOrFalse)
         {
             int cashSum = cash1 + cash2;
 
-            switch (grammar)
+            switch (trueOrFalse)
             {
                 case true:
                     return $"${cashSum} dollar";
                 default:
                     return $"${cashSum} dollars";
             }
-            //if (integerSum == 1)
-            //{
-            //    return $"${integerSum} dollar";
-            //}
-            //else
-            //{
-            //    return $"${integerSum} dollars";
-            //}
         }
     }
 }
