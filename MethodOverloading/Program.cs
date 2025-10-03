@@ -76,8 +76,16 @@
             //}
 
             Console.WriteLine("True or False, The sum of the bills is a dollar?\nPlease, type true or false.");
-            bool grammar = bool.Parse(Console.ReadLine());
-            Console.WriteLine($"{Add(cash1, cash2, grammar)}.");
+            bool trueOrFalse = bool.Parse(Console.ReadLine());
+            //var canParse7 = bool.TryParse(Console.ReadLine(), out var trueOrFalse);
+
+            //while (!canParse7)
+            //{
+            //    Console.WriteLine("Please, type true or false.");
+           //     canParse7 = bool.TryParse(Console.ReadLine()), out trueOrFalse);
+           // }
+
+            Console.WriteLine($"{Add(cash1, cash2, trueOrFalse)}.");
         }
 
         static int Add(int integer1, int integer2)
