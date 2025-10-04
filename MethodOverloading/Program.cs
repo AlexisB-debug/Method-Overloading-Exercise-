@@ -67,8 +67,6 @@
             }
             
             Console.WriteLine("True or False, The sum of the bills is a dollar?\nPlease, type true or false.");
-            //bool trueOrFalse = bool.Parse(Console.ReadLine());
-            //Console.WriteLine($"{Add(cash1, cash2, trueOrFalse)}.");
             string falseOrTrue = Console.ReadLine().ToLower();
 
             while (falseOrTrue != "true" && falseOrTrue != "false")
