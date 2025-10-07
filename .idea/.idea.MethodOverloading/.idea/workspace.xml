@@ -8,7 +8,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1521f9d6-9127-4377-b13b-21069dd88388" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MethodOverloading/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MethodOverloading/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MethodOverloading/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MethodOverloading/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MethodOverloading/bin/Debug/net9.0/MethodOverloading.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MethodOverloading/bin/Debug/net9.0/MethodOverloading.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MethodOverloading/bin/Debug/net9.0/MethodOverloading.exe" beforeDir="false" afterPath="$PROJECT_DIR$/MethodOverloading/bin/Debug/net9.0/MethodOverloading.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MethodOverloading/bin/Debug/net9.0/MethodOverloading.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MethodOverloading/bin/Debug/net9.0/MethodOverloading.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MethodOverloading/obj/Debug/net9.0/MethodOverloading.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MethodOverloading/obj/Debug/net9.0/MethodOverloading.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MethodOverloading/obj/Debug/net9.0/MethodOverloading.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MethodOverloading/obj/Debug/net9.0/MethodOverloading.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MethodOverloading/obj/Debug/net9.0/MethodOverloading.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MethodOverloading/obj/Debug/net9.0/MethodOverloading.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MethodOverloading/obj/Debug/net9.0/MethodOverloading.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MethodOverloading/obj/Debug/net9.0/MethodOverloading.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MethodOverloading/obj/Debug/net9.0/MethodOverloading.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/MethodOverloading/obj/Debug/net9.0/MethodOverloading.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MethodOverloading/obj/Debug/net9.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/MethodOverloading/obj/Debug/net9.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MethodOverloading/obj/Debug/net9.0/ref/MethodOverloading.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MethodOverloading/obj/Debug/net9.0/ref/MethodOverloading.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MethodOverloading/obj/Debug/net9.0/refint/MethodOverloading.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MethodOverloading/obj/Debug/net9.0/refint/MethodOverloading.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MethodOverloading/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/MethodOverloading/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MethodOverloading/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MethodOverloading/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +92,8 @@
       <option name="presentableId" value="Default" />
       <updated>1759507653114</updated>
       <workItem from="1759507662089" duration="15266000" />
-      <workItem from="1759594470618" duration="3467000" />
+      <workItem from="1759594470618" duration="3596000" />
+      <workItem from="1759873385899" duration="2075000" />
     </task>
     <servers />
   </component>

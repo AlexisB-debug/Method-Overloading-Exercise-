@@ -77,6 +77,18 @@
             
             bool trueOrFalse = bool.Parse(falseOrTrue);
             Console.WriteLine($"{Add(cash1, cash2, trueOrFalse)}.");
+            
+            //bool trueOrFalse;
+            //if (cash1 + cash2 == 1)
+            //{
+                //bool trueOrFalse = true;
+            //}
+            //else
+            //{
+                //bool trueOrFalse = false;
+            //}
+            
+            //Console.WriteLine($"{Add(cash1, cash2, trueOrFalse)}");
         }
 
         static int Add(int integer1, int integer2)
