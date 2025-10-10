@@ -21,8 +21,6 @@
       <change beforePath="$PROJECT_DIR$/MethodOverloading/obj/Debug/net9.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/MethodOverloading/obj/Debug/net9.0/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MethodOverloading/obj/Debug/net9.0/ref/MethodOverloading.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MethodOverloading/obj/Debug/net9.0/ref/MethodOverloading.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MethodOverloading/obj/Debug/net9.0/refint/MethodOverloading.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MethodOverloading/obj/Debug/net9.0/refint/MethodOverloading.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MethodOverloading/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/MethodOverloading/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MethodOverloading/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MethodOverloading/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +92,7 @@
       <workItem from="1759507662089" duration="15266000" />
       <workItem from="1759594470618" duration="3596000" />
       <workItem from="1759873385899" duration="2422000" />
+      <workItem from="1760121139374" duration="342000" />
     </task>
     <servers />
   </component>

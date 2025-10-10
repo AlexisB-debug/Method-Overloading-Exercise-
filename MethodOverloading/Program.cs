@@ -66,29 +66,29 @@
                 canParse6 = int.TryParse(Console.ReadLine(), out cash2);
             }
             
-            Console.WriteLine("True or False, The sum of the bills is a dollar?\nPlease, type true or false.");
-            string falseOrTrue = Console.ReadLine().ToLower();
-
-            while (falseOrTrue != "true" && falseOrTrue != "false")
+            // Console.WriteLine("True or False, The sum of the bills is a dollar?\nPlease, type true or false.");
+            // string falseOrTrue = Console.ReadLine().ToLower();
+            //
+            // while (falseOrTrue != "true" && falseOrTrue != "false")
+            // {
+            //     Console.WriteLine("Please, type 'true' or 'false'!");
+            //     falseOrTrue = Console.ReadLine().ToLower();
+            // }
+            //
+            // bool trueOrFalse = bool.Parse(falseOrTrue);
+            // Console.WriteLine($"{Add(cash1, cash2, trueOrFalse)}.");
+            
+            bool trueOrFalse;
+            if (cash1 + cash2 == 1)
             {
-                Console.WriteLine("Please, type 'true' or 'false'!");
-                falseOrTrue = Console.ReadLine().ToLower();
+                trueOrFalse = true;
+            }
+            else
+            {
+                trueOrFalse = false;
             }
             
-            bool trueOrFalse = bool.Parse(falseOrTrue);
-            Console.WriteLine($"{Add(cash1, cash2, trueOrFalse)}.");
-            
-            //bool trueOrFalse;
-            //if (cash1 + cash2 == 1)
-            //{
-                //bool trueOrFalse = true;
-            //}
-            //else
-            //{
-                //bool trueOrFalse = false;
-            //}
-            
-            //Console.WriteLine($"{Add(cash1, cash2, trueOrFalse)}");
+            Console.WriteLine($"{Add(cash1, cash2, trueOrFalse)}");
         }
 
         static int Add(int integer1, int integer2)
