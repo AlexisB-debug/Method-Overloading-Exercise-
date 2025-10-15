@@ -42,7 +42,7 @@
                 canParse4 = decimal.TryParse(Console.ReadLine(), out decimal2);
             }
 
-            Console.WriteLine($"The sume of  {decimal1} and {decimal2} is {Add(decimal1, decimal2)}.");
+            Console.WriteLine($"The sum of  {decimal1} and {decimal2} is {Add(decimal1, decimal2)}.");
 
             Console.WriteLine("\nThe third method counts dollar bills!");
             Console.WriteLine("Please, count the number of dollar bills in the safe or count the number of dollar bills missing from the safe.");
@@ -65,18 +65,6 @@
                 Console.WriteLine("The number of bills is an integer.");
                 canParse6 = int.TryParse(Console.ReadLine(), out cash2);
             }
-            
-            // Console.WriteLine("True or False, The sum of the bills is a dollar?\nPlease, type true or false.");
-            // string falseOrTrue = Console.ReadLine().ToLower();
-            //
-            // while (falseOrTrue != "true" && falseOrTrue != "false")
-            // {
-            //     Console.WriteLine("Please, type 'true' or 'false'!");
-            //     falseOrTrue = Console.ReadLine().ToLower();
-            // }
-            //
-            // bool trueOrFalse = bool.Parse(falseOrTrue);
-            // Console.WriteLine($"{Add(cash1, cash2, trueOrFalse)}.");
             
             bool trueOrFalse;
             if (cash1 + cash2 == 1)
